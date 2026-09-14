@@ -64,7 +64,7 @@ python3 tests/store_test.py
 
 ## Pubblicazione
 
-L’APK consegnato è una **beta per installazione diretta**, non una release Play Store. Per una pubblicazione su store servono firma di produzione conservata dal proprietario, controlli sul target SDK richiesto al momento della pubblicazione, test su dispositivi reali e dichiarazioni di servizio/permessi e privacy. Il sorgente può essere pubblicato su GitHub senza `.signing`, file personali e directory build. Non è stata effettuata alcuna pubblicazione esterna.
+L’APK pubblicato è una **beta per installazione diretta**, non una release Play Store. Per una pubblicazione su store servono firma di produzione conservata dal proprietario, controlli sul target SDK richiesto al momento della pubblicazione, test su dispositivi reali e dichiarazioni di servizio/permessi e privacy. La chiave in `.signing`, i file personali e le directory di build non sono inclusi nel repository.
 
 Documentazione tecnica di riferimento:
 - https://developer.android.com/develop/background-work/services/fgs/service-types
